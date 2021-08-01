@@ -56,15 +56,47 @@
 		F4B5D2F026B6F7F200BAB95F /* Шаги к цели! */ = {
 			isa = PBXGroup;
 			children = (
-				F4B5D2F126B6F7F200BAB95F /* AppDelegate.swift */,
-				F4B5D2F326B6F7F200BAB95F /* SceneDelegate.swift */,
-				F4B5D2F526B6F7F200BAB95F /* ViewController.swift */,
-				F4B5D2F726B6F7F200BAB95F /* Main.storyboard */,
+				F4B5D30726B6F84A00BAB95F /* View Controller */,
+				F4B5D30826B6F85E00BAB95F /* StoryBoard */,
+				F4B5D30626B6F83B00BAB95F /* Models */,
 				F4B5D2FA26B6F7F500BAB95F /* Assets.xcassets */,
-				F4B5D2FC26B6F7F500BAB95F /* LaunchScreen.storyboard */,
-				F4B5D2FF26B6F7F500BAB95F /* Info.plist */,
+				F4B5D30526B6F81600BAB95F /* Support */,
 			);
 			path = "Шаги к цели!";
+			sourceTree = "<group>";
+		};
+		F4B5D30526B6F81600BAB95F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F4B5D2FF26B6F7F500BAB95F /* Info.plist */,
+				F4B5D2F326B6F7F200BAB95F /* SceneDelegate.swift */,
+				F4B5D2F126B6F7F200BAB95F /* AppDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F4B5D30626B6F83B00BAB95F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4B5D30726B6F84A00BAB95F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4B5D2F526B6F7F200BAB95F /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		F4B5D30826B6F85E00BAB95F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F4B5D2F726B6F7F200BAB95F /* Main.storyboard */,
+				F4B5D2FC26B6F7F500BAB95F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XLJ4BB85J;
-				INFOPLIST_FILE = "Шаги к цели!/Info.plist";
+				INFOPLIST_FILE = "Шаги к цели!/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XLJ4BB85J;
-				INFOPLIST_FILE = "Шаги к цели!/Info.plist";
+				INFOPLIST_FILE = "Шаги к цели!/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
