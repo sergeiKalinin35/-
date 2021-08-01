@@ -15,5 +15,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func goActiv() {
+        performSegue(withIdentifier: "Q", sender:nil)
+        
+        
+    }
 }
 
