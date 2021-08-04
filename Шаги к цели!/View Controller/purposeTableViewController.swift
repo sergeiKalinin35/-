@@ -25,10 +25,12 @@ class purposeTableViewController: UITableViewController {
         
         @IBAction func didTapAdd() {
             
+            guard let vc = storyboard?.instantiateViewController(identifier: "add") as? editingViewController else { return }
+            vc.title = "New Reminder"
+            vc.navigationItem.largeTitleDisplayMode = .never
+            vc.completion = { title, body, date in }
             
-            
-            
-            
+            navigationController?.pushViewController(vc, animated: true)
             
     }
 
