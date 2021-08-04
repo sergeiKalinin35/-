@@ -34,10 +34,16 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Banana plan🍌" id="NK5-6n-1rH">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ySe-fg-BCh"/>
+                        <barButtonItem key="leftBarButtonItem" title="Test" id="hqm-ld-ez6">
+                            <connections>
+                                <action selector="didTapTest" destination="ZYY-JF-aCU" id="Wuu-Xo-mYA"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" id="2Pe-z0-Avv">
                             <imageReference key="image" image="target" catalog="system" symbolScale="large"/>
                             <color key="tintColor" systemColor="systemRedColor"/>
                             <connections>
+                                <action selector="didTapAdd" destination="ZYY-JF-aCU" id="c9D-WY-gT8"/>
                                 <segue destination="89V-VI-QYe" kind="show" id="RKd-yZ-eKv"/>
                             </connections>
                         </barButtonItem>
